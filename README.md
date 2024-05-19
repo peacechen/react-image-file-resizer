@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/onurzorluer/react-image-file-resizer.svg?branch=master)](https://travis-ci.org/onurzorluer/react-image-file-resizer.svg?branch=master) [![npm version](https://badge.fury.io/js/react-image-file-resizer.svg)](https://badge.fury.io/js/react-image-file-resizer)
 
-`react-image-file-resizer` is a react module that resizes images in the browser.
+`@peacechen/react-image-file-resizer` is a react module that resizes images in the browser.
 
 - You can change image's width, height, format, rotation and quality.
 - It returns resized image's new base64 URI, Blob, or File. The URI can be used as the source of an `<Image>` component.
@@ -17,24 +17,28 @@
 * The main method `imageFileResizer` accepts an options object argument instead of multiple individual arguments.
 * It returns a Promise instead of using a callback.
 
+## Publication notes
+
+This fork has been published as `@peacechen/react-image-file-resizer` pending merge into the parent project.
+
 ## Setup
 
 Install the package:
 
 ```
-npm i react-image-file-resizer
+npm i @peacechen/react-image-file-resizer
 ```
 
 or
 
 ```
-yarn add react-image-file-resizer
+yarn add @peacechen/react-image-file-resizer
 ```
 
 ## Usage
 
 ```javascript
-import { imageFileResizer } from "react-image-file-resizer";
+import { imageFileResizer } from "@peacechen/react-image-file-resizer";
 
 const newImage = await imageFileResizer({
   compressFormat, // the compression format of the resized image.
@@ -53,7 +57,7 @@ const newImage = await imageFileResizer({
 
 ```javascript
 import React, { useState } from "react";
-import { imageFileResizer } from "react-image-file-resizer";
+import { imageFileResizer } from "@peacechen/react-image-file-resizer";
 
 export function App() {
   const [newImage, setNewImage] = useState();

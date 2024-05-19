@@ -1,5 +1,5 @@
 {
-  "name": "react-image-file-resizer",
+  "name": "@peacechen/react-image-file-resizer",
   "version": "1.0.0",
   "description": "React module that rescales local images. You can change image's width, height, format, rotation and quality. It returns resized image's new base64 URI, Blob, or File. The URI can be used as the source of an <Image> component.",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onurzorluer/react-image-file-resizer.git"
+    "url": "https://github.com/peacechen/react-image-file-resizer.git"
   },
   "keywords": [
     "react",
@@ -36,7 +36,7 @@
     "url": "https://zorluer.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/onurzorluer/react-image-file-resizer#readme",
+  "homepage": "https://github.com/peacechen/react-image-file-resizer/tree/npm_publish",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

@@ -1,16 +1,15 @@
 {
   "name": "react-image-file-resizer",
-  "version": "0.4.8",
-  "description": "React module that can rescaled local images. You can change image's width, height, format, rotation and quality. It returns resized image's new base64 URI or Blob. The URI can be used as the source of an <Image> component.",
-  "main": "build/index.js",
-  "types": "./index.d.ts",
+  "version": "1.0.0",
+  "description": "React module that rescales local images. You can change image's width, height, format, rotation and quality. It returns resized image's new base64 URI, Blob, or File. The URI can be used as the source of an <Image> component.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "build",
-    "index.d.ts"
+    "dist"
   ],
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack",
+    "start": "echo TBD",
+    "build": "tsc --declaration",
     "test": "jest"
   },
   "repository": {
@@ -42,19 +41,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "all-contributors-cli": "^6.19.0",
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^26.6.3",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "jest": "^26.6.3",
-    "webpack": "^5.31.2",
-    "webpack-cli": "^4.6.0"
+    "all-contributors-cli": "^6.26.1",
+    "jest": "^29.7.0",
+    "typescript": "^5.4.5"
   }
 }

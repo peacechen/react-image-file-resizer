@@ -2,10 +2,9 @@
 /node_modules
 
 # production
-/build
+/dist
 
 # npm packs
-react-image-file-resizer-0.4.8.tgz
+react-image-file-resizer*.tgz
 
 .DS_Store
-
